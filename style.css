@@ -1,5 +1,6 @@
 h1 {
   font-size: 50px;
+  margin: 0px;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 section {
   height: 500px;
   padding-bottom: 100px;
+  margin: 0;
 }
 .text-color {
   color: white;
@@ -29,11 +31,11 @@ section {
   width: 43%;
   float: left;
   margin-left: 5%;
-  padding-left: 2%;
-  height: 100%;
+  padding-left: 1%;
+  height: 80%;
 }
 .half-width img {
-  height: 500px;
+  height: 400px;
 }
 .section-one {
   background-image: url(images/bg-head.jpg);
@@ -46,4 +48,27 @@ section {
 }
 .section-two {
   background-color: gray;
+  margin-bottom: 0%;
+}
+.section-three {
+  background-color: gray;
+  padding-bottom: 10px;
+  padding: 10px 100px;
+}
+#last-one {
+  border-left: 10px solid;
+  border-radius: 5px;
+  box-shadow: 5px 7px 40px aqua;
+}
+#last-two {
+  border-left: 10px solid;
+  border-image-slice: 1;
+  border-radius: 5px;
+  box-shadow: 5px 7px 40px aqua;
+}
+footer {
+  text-align: center;
+}
+.section-three > h1 {
+  text-align: center;
 }
