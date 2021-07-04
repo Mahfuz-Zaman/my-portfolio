@@ -1,5 +1,5 @@
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin: 0px;
 }
 
@@ -21,11 +21,11 @@ section {
 }
 .hire-me {
   background-image: linear-gradient(lightsalmon, tomato);
-  padding: 8px 34px;
+  padding: 10px 34px;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: 1200px;
-  color: white;
+  font-weight: bolder;
+  color: black;
 }
 .half-width {
   width: 40%;
