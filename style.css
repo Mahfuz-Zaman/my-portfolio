@@ -28,47 +28,50 @@ section {
   color: white;
 }
 .half-width {
-  width: 43%;
+  width: 40%;
   float: left;
   margin-left: 5%;
-  padding-left: 0%;
-  height: 80%;
+  padding-left: 2%;
 }
 .half-width img {
-  height: 400px;
+  height: 500px;
 }
 .section-one {
+  margin: 0;
   background-image: url(images/bg-head.jpg);
   background-repeat: no-repeat;
-}
-#only {
-  background-image: url(images/spiderman-bg.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section-two {
-  background-color: gray;
-  margin-bottom: 0%;
-}
-.section-three {
-  background-color: gray;
-  padding-bottom: 10px;
-  padding: 10px 100px;
-}
-#last-one {
-  border-left: 10px solid;
-  border-radius: 5px;
-  box-shadow: 5px 7px 40px aqua;
-}
-#last-two {
-  border-left: 10px solid;
-
-  border-radius: 5px;
-  box-shadow: 5px 7px 40px aqua;
-}
-footer {
-  text-align: center;
+  margin: 0;
+  background-image: url(images/spiderman-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .section-three > h1 {
+  text-align: center;
+}
+.section-three {
+  margin: 0;
+  background-color: gray;
+  padding: 100px;
+}
+#last-one {
+  box-shadow: 5px 7px 60px rgb(77, 230, 17);
+  border-left: 20px solid;
+  border-image: linear-gradient(180deg, rgb(0, 255, 191), rgb(238, 255, 0));
+  border-image-slice: 1;
+  height: 100%;
+  border-radius: 20px;
+}
+#last-two {
+  box-shadow: 5px 7px 60px rgb(77, 230, 17);
+  border-left: 20px solid;
+  border-image: linear-gradient(180deg, blue, rgb(162, 0, 255));
+  border-image-slice: 1;
+  height: 100%;
+  border-radius: 20px;
+}
+footer {
   text-align: center;
 }
