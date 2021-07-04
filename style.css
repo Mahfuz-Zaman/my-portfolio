@@ -1,0 +1,49 @@
+h1 {
+  font-size: 50px;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+  margin: 0;
+}
+.color-orange {
+  color: orange;
+}
+section {
+  height: 500px;
+  padding-bottom: 100px;
+}
+.text-color {
+  color: white;
+  text-align: left;
+}
+.hire-me {
+  background-image: linear-gradient(lightsalmon, tomato);
+  padding: 8px 34px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 1200px;
+  color: white;
+}
+.half-width {
+  width: 43%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  height: 100%;
+}
+.half-width img {
+  height: 500px;
+}
+.section-one {
+  background-image: url(images/bg-head.jpg);
+  background-repeat: no-repeat;
+}
+#only {
+  background-image: url(images/spiderman-bg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.section-two {
+  background-color: gray;
+}
